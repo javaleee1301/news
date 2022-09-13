@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: averta_Regular,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857143;
+	margin: 0;
+
+  color: #000;
+  background-color: #fff;
+}
+
+#layout {
+	margin: 0 auto;
+	padding: 10px;
+	width: 90%;
+}
+#header {
+	border-top: 1px solid #000;
+}
+
+.menu-item {
+	padding : 5px;
+	margin-right: 3px;
+	display:inline-block;
+}
+
+#nav {
+	
+}
+.item {
+	padding : 5px;
+	margin-right: 3px;
+	margin-bottom: 15px;
+	display:inline-block;
+	background: #ddd;
+}
+.clear {
+	clear:both;
+}
+#content {
+	width: 100%;
+}
+
+#content {
+	margin-bottom: 20px;
+}
+
+#content p {
+	margin-bottom: 20px;
+}
+
+.comic {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.comic:after {
+	clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.content-img {
+	text-align: center;
+}
+.content-img img {
+	width: 50%;
+}
+
+
+#footer {
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+}
